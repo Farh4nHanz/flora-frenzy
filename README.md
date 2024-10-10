@@ -26,10 +26,9 @@ FloraFrenzy is an online plant shop that offers a wide variety of plants for all
 To run the project locally:
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/farh4nhanz/flora-frenzy.git
-   ```
+```bash
+git clone https://github.com/farh4nhanz/flora-frenzy.git
+```
 
 2. Navigate to the project directory:
 

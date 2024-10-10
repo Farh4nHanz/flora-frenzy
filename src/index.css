@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: "Gloock", sans-serif;
+  letter-spacing: 1.1px;
+}

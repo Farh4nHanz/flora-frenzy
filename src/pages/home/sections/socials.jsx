@@ -27,7 +27,7 @@ function SocialMediaSection() {
   ];
 
   return (
-    <section className="min-h-fit p-10 md:px-15 md:py-20 2xl:py-40 flex flex-col justify-center">
+    <section className="min-h-fit p-10 py-16 md:px-15 md:py-20 2xl:py-40 flex flex-col justify-center">
       <h1 className="text-3xl 2xl:text-8xl md:text-5xl sm:text-4xl font-bold text-center mb-14 capitalize">
         Join Our Plant Party!
       </h1>
@@ -44,7 +44,7 @@ function SocialMediaSection() {
             href="#"
             className={`${social.variant} p-5 rounded-full cursor-pointer text-white hover:bg-white border transition-all duration-300 ease-in-out`}
           >
-            <div className="text-2xl 2xl:text-6xl md:text-3xl sm:text-xl">
+            <div className="text-xl 2xl:text-6xl md:text-3xl">
               {social.media}
             </div>
           </a>

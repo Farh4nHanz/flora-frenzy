@@ -40,12 +40,12 @@ function GetInTouchSection() {
         Get in Touch!
       </h1>
 
-      <Form className="w-4/5 max-w-3xl p-5" onSubmit={submitForm}>
+      <Form className="w-4/5 max-w-xl min-w-fit p-5" onSubmit={submitForm}>
         <div className="flex flex-wrap gap-3">
           <FormInput
             type="text"
             placeholder="Name"
-            className="rounded-full px-5 mb-5 h-12 2xl:h-20 flex-1 border border-slate-300 hover:border-slate-500 transition duration-150 ease-in focus:outline-none text-slate-600 2xl:text-2xl"
+            className="rounded-xl px-3 md:px-5 mb-5 h-12 2xl:h-20 flex-1 border border-slate-300 hover:border-slate-500 transition duration-150 ease-in focus:outline-none text-slate-600 2xl:text-2xl"
             value={formData.name}
             onChange={(e) =>
               setFormData((f) => ({ ...f, name: e.target.value }))
@@ -54,7 +54,7 @@ function GetInTouchSection() {
           <FormInput
             type="email"
             placeholder="Email"
-            className="rounded-full px-5 mb-5 h-12 2xl:h-20 flex-1 border border-slate-300 hover:border-slate-500 transition duration-150 ease-in focus:outline-none text-slate-600 2xl:text-2xl"
+            className="rounded-xl px-3 md:px-5 mb-5 h-12 2xl:h-20 flex-1 border border-slate-300 hover:border-slate-500 transition duration-150 ease-in focus:outline-none text-slate-600 2xl:text-2xl"
             value={formData.email}
             onChange={(e) =>
               setFormData((f) => ({ ...f, email: e.target.value }))
@@ -65,7 +65,7 @@ function GetInTouchSection() {
         <textarea
           type="text"
           placeholder="Message"
-          className="rounded-full px-5 py-3 2xl:py-8 w-full border border-slate-300 hover:border-slate-500 transition duration-150 ease-in focus:outline-none text-slate-600 2xl:text-2xl min-h-20 2xl:min-h-40 mb-5"
+          className="rounded-xl px-3 md:px-5 py-3 2xl:py-8 w-full border border-slate-300 hover:border-slate-500 transition duration-150 ease-in focus:outline-none text-slate-600 2xl:text-2xl min-h-20 2xl:min-h-40 mb-5"
           maxLength="300"
           value={formData.message}
           onChange={(e) =>
@@ -76,7 +76,7 @@ function GetInTouchSection() {
 
         <Button
           type="submit"
-          className="h-12 2xl:h-16 bg-green-500 hover:bg-green-600 transition duration-300 ease-in-out w-full rounded-full text-white text-lg 2xl:text-3xl"
+          className="h-12 2xl:h-16 bg-green-500 hover:bg-green-600 transition duration-300 ease-in-out w-full rounded-xl text-white text-lg 2xl:text-3xl"
         >
           Send it!
         </Button>

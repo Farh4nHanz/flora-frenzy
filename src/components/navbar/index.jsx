@@ -43,7 +43,7 @@ function Navbar() {
 
         {/* mobile menu */}
         <motion.div
-          className="md:hidden absolute top-20 left-0 right-0 bg-gray-100 shadow-lg rounded-xl p-3 mx-3 origin-top"
+          className="md:hidden absolute left-0 right-0 bg-gray-100 shadow-lg rounded-xl p-3 mx-3 origin-top"
           initial={{ opacity: 0, scaleY: 0 }}
           animate={
             isOpen ? { opacity: 1, scaleY: 1 } : { opacity: 0, scaleY: 0 }

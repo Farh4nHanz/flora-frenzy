@@ -48,20 +48,20 @@ function ProductSection() {
               <Card.Header imgSrc={product.image} />
               <Card.Body>
                 <h1
-                  className="text-2xl 2xl:text-5xl xl:text-3xl text-slate-950 font-bold capitalize"
+                  className="text-2xl 2xl:text-5xl text-slate-950 font-bold capitalize"
                   style={{ letterSpacing: "3px" }}
                 >
                   {product.title}
                 </h1>
-                <p className="text-sm 2xl:text-2xl xl:text-xl text-slate-800">
+                <p className="text-sm 2xl:text-2xl xl:text-lg text-slate-800">
                   {product.price}
                 </p>
-                <p className="text-sm 2xl:text-2xl xl:text-xl text-slate-600">
+                <p className="text-sm 2xl:text-2xl xl:text-md text-slate-600">
                   {product.description}
                 </p>
               </Card.Body>
               <Card.Footer>
-                <Button className="flex overflow-hidden w-[7rem] 2xl:w-[9rem] xl:w-[8rem] hover:w-[8.2rem] 2xl:hover:w-[10.2rem] xl:hover:w-[9.2rem] items-center gap-2 xl:gap-4 bg-green-600 text-white 2xl:text-2xl xl:text-xl px-5 py-2 rounded-full transition-all duration-300 ease-in-out shadow-lg group relative">
+                <Button className="flex overflow-hidden w-[7rem] 2xl:w-[9rem] xl:w-[8rem] hover:w-[8.2rem] 2xl:hover:w-[10.2rem] xl:hover:w-[9.2rem] items-center gap-2 xl:gap-4 bg-green-600 text-white 2xl:text-2xl xl:text-lg px-5 py-2 rounded-full transition-all duration-300 ease-in-out shadow-lg group relative">
                   Buy now
                   <TiShoppingCart
                     size="20px"

@@ -6,26 +6,26 @@ FloraFrenzy is an online plant shop that offers a wide variety of plants for all
 
 ### Features
 
-- **Homepage:** Displays featured plants with links to explore the shop.
-- **Shop:** Browse available plants for sale.
-- **Newsletter:** Subscribe to stay updated on new plant arrivals and promotions.
+- **Hero Section:** A visually appealing introduction to FloraFrenzy, featuring a call-to-action to explore the shop.
+- **Featured Plants:** A showcase of popular or recommended plants, with images, descriptions, and links to buy it.
 - **Get in Touch:** Contact form for customer inquiries.
+- **Newsletter Subscription:** Subscribe to stay updated on new plant arrivals and promotions.
 - **Responsive Design:** Built to work smoothly on desktop and mobile devices.
-- **Footer:** Includes navigation links, legal information, and a newsletter subscription form.
+- **Footer:** Providing additional information, including navigation links, legal details, and a newsletter subscription form.
 
 ### Technologies Used
 
-- **Frontend:**
-  - [React](https://reactjs.org/) - For building the UI components.
-  - [Tailwind CSS](https://tailwindcss.com/) - For styling and responsive design.
-  - [Chakra UI](https://v2.chakra-ui.com/) - To help build UI components.
-  - [Framer Motion](https://www.framer.com/) - To create animation on a component.
+- [React](https://reactjs.org/) - For building the UI components.
+- [Tailwind CSS](https://tailwindcss.com/) - For styling and responsive design.
+- [Chakra UI](https://v2.chakra-ui.com/) - To help build UI components.
+- [Framer Motion](https://www.framer.com/) - To create animation on a component such as parallax effect.
 
 ### Project Setup
 
 To run the project locally:
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/farh4nhanz/flora-frenzy.git
 ```
@@ -42,8 +42,12 @@ cd flora-frenzy
 npm install
 ```
 
-4.Start the development server:
+4. Start the development server:
 
 ```bash
 npm run dev
 ```
+
+### License
+
+This project is licensed under the GPL-3.0 License. See [LICENSE](LICENSE) for details.

@@ -11,7 +11,7 @@ function BuzzSection() {
 
   return (
     <section
-      className="min-h-fit p-10 md:px-15 md:py-20"
+      className="min-h-fit p-5 md:px-15 md:py-20"
       style={{ background: "#fafafa" }}
     >
       <motion.h1
@@ -36,6 +36,8 @@ function BuzzSection() {
         gap={10}
         overflowX={"hidden"}
         py={10}
+        px={2}
+        placeContent="center"
       >
         {buzzers.map((buzzer, index) => (
           <MotionGridItem

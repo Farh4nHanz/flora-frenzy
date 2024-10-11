@@ -46,7 +46,7 @@ function NewsSection() {
               <Card.Header imgSrc={item.image} />
               <Card.Body>
                 <h1
-                  className="text-2xl 2xl:text-5xl xl:text-3xl text-slate-950 font-bold capitalize"
+                  className="text-2xl 2xl:text-5xl text-slate-950 font-bold capitalize"
                   style={{ letterSpacing: "3px" }}
                 >
                   {item.title}

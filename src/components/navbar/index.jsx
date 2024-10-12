@@ -13,7 +13,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="max-w-[1140px] fixed top-10 left-0 right-0 z-50 px-3 m-auto">
+    <div className="max-w-[1140px] fixed top-5 md:top-10 left-0 right-0 z-50 px-3 m-auto">
       <nav className="w-full bg-gray-100 h-16 px-5 py-3 rounded-xl flex flex-nowrap justify-between items-center max-md:flex-wrap">
         {/* logo */}
         <h1 className="text-2xl font-bold text-slate-700 max-md:text-lg cursor-pointer">
@@ -43,7 +43,7 @@ function Navbar() {
 
         {/* mobile menu */}
         <motion.div
-          className="md:hidden absolute left-0 right-0 bg-gray-100 shadow-lg rounded-xl p-3 mx-3 origin-top"
+          className="md:hidden absolute top-20 left-0 right-0 bg-gray-100 shadow-lg rounded-xl p-3 mx-3 origin-top"
           initial={{ opacity: 0, scaleY: 0 }}
           animate={
             isOpen ? { opacity: 1, scaleY: 1 } : { opacity: 0, scaleY: 0 }
